@@ -40,3 +40,9 @@ definitions:
             hst:pickerconfiguration: cms-pickers/documents-only
             hst:pickerinitialpath: banners
             hst:relative: true
+      /productlist:
+        jcr:primaryType: hst:componentdefinition
+        hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.DocumentQueryDynamicComponent
+        hst:ctype: Product List
+        hst:iconpath: images/catalog-component-icons/product-list.png
+        hst:label: Product List

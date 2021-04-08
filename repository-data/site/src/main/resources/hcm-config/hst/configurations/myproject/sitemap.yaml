@@ -44,4 +44,17 @@ definitions:
       /about:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/contentpage
-        hst:relativecontentpath: hst:pages/contentpage
+        hst:relativecontentpath: service/about-us
+      /landingpages:
+        jcr:primaryType: hst:sitemapitem
+        hst:hiddeninchannelmanager: true
+        hst:relativecontentpath: landing-pages
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:relativecontentpath: ${parent}/${1}
+      /products:
+        jcr:primaryType: hst:sitemapitem
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/productpage
+          hst:relativecontentpath: products/${1}

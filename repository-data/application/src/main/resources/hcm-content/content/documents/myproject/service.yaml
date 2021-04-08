@@ -1,78 +1,158 @@
 /content/documents/myproject/service:
-  .meta:order-before: new
+  .meta:order-before: configuration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
-  jcr:uuid: ead91bf5-a98f-4aef-9c9e-4318680da38a
+  jcr:uuid: f371eb75-e263-4014-966b-3a153d18a783
   hippostd:foldertype: [new-translated-folder, new-document]
-  hippotranslation:id: c220e69d-2aa9-4b91-abb8-a1faacbf3d4c
+  hippotranslation:id: 4e3e86e6-c158-413c-ab1b-7a3e5f24d4a1
   hippotranslation:locale: en
   /about-us:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 72120993-e9fb-4db7-9cba-85217f82f968
+    jcr:uuid: d1657d8c-2f05-40a4-9718-8175abd3f6ce
     hippo:name: About Us
-    hippo:versionHistory: 5b9e9be9-2ac3-4917-b983-e99e024de17d
+    hippo:versionHistory: b736dc77-7ae5-441e-bcc7-f14a65ffe5e7
     /about-us[1]:
       jcr:primaryType: myproject:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 9c73213e-e2cc-4e41-85e8-807a9bdc8d96
+      jcr:uuid: 5182a9b0-4213-4480-b620-3437594ab695
       hippo:availability: []
       hippo:related___pathreference: []
       hippostd:retainable: false
       hippostd:state: draft
+      hippostd:transferable: false
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-04-07T11:11:16.718+03:00
-      hippostdpubwf:lastModificationDate: 2021-04-07T11:11:16.718+03:00
+      hippostdpubwf:creationDate: 2021-04-08T11:51:10.422+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:08:30.618+03:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: a0d4b6b6-6755-46e9-91ba-9872cfe1b211
+      hippotranslation:id: 5f03c016-d25f-4e51-a762-368d55fa7373
       hippotranslation:locale: en
-      myproject:introduction: Me & my cat are greeting you!
-      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:introduction: Some introduction text about us
+      myproject:publicationdate: 2021-04-07T11:52:00+03:00
       myproject:title: About Us
       /myproject:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: <p>My name is Olesia and my cat's name is Felix. I'm working
-          on this project and Felix is inspiring me, purring on my laps</p>
+        hippostd:content: |-
+          <p>Bloomreach lives at the intersection of e-commerce, marketing, and AI. Our solutions are uniquely built to serve digital commerce and marketing professionals in their mission to deliver meaningful moments to customers that result in revenue growth, fast.&nbsp;</p>
+
+          <p>Our commerce-specific digital experience platform, brX, is the only platform that connects deep customer data with deep product data, enabling brands to deliver incredible commerce experiences through personalized products and content across all digital touchpoints.&nbsp;</p>
+
+          <p>brX competes in three core categories: Engagement (including customer data platforms and marketing automation), Content (including headless content and experience management), and Discovery (including e-commerce search, merchandising, recommendations, and SEO). Customers can start with any of these services, realize ROI quickly, and build towards magical experiences.&nbsp;</p>
     /about-us[2]:
       jcr:primaryType: myproject:contentdocument
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: 5326e9ff-b5c0-4a95-ae2c-5ba0c0abc2a3
+      jcr:uuid: 6d03d77c-4c2e-4978-812d-ac600a644248
       hippo:availability: [preview]
       hippo:related___pathreference: []
       hippostd:retainable: false
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-04-07T11:11:16.718+03:00
-      hippostdpubwf:lastModificationDate: 2021-04-07T11:13:43.426+03:00
+      hippostdpubwf:creationDate: 2021-04-08T11:51:10.422+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T11:52:13.853+03:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: a0d4b6b6-6755-46e9-91ba-9872cfe1b211
+      hippotranslation:id: 5f03c016-d25f-4e51-a762-368d55fa7373
       hippotranslation:locale: en
-      myproject:introduction: Me & my cat are greeting you!
-      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:introduction: Some introduction text about us
+      myproject:publicationdate: 2021-04-07T11:52:00+03:00
       myproject:title: About Us
       /myproject:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: <p>My name is Olesia and my cat's name is Felix. I'm working
-          on this project and Felix is inspiring me, purring on my laps</p>
+        hippostd:content: |-
+          <p>Bloomreach lives at the intersection of e-commerce, marketing, and AI. Our solutions are uniquely built to serve digital commerce and marketing professionals in their mission to deliver meaningful moments to customers that result in revenue growth, fast.&nbsp;</p>
+
+          <p>Our commerce-specific digital experience platform, brX, is the only platform that connects deep customer data with deep product data, enabling brands to deliver incredible commerce experiences through personalized products and content across all digital touchpoints.&nbsp;</p>
+
+          <p>brX competes in three core categories: Engagement (including customer data platforms and marketing automation), Content (including headless content and experience management), and Discovery (including e-commerce search, merchandising, recommendations, and SEO). Customers can start with any of these services, realize ROI quickly, and build towards magical experiences.&nbsp;</p>
     /about-us[3]:
       jcr:primaryType: myproject:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 446fadd7-c989-42a2-bd20-bc40ee8bc8e3
+      jcr:uuid: 85e9955d-4b3c-4437-bc96-f8290e4f3136
       hippo:availability: [live]
       hippo:related___pathreference: []
       hippostd:retainable: false
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-04-07T11:11:16.718+03:00
-      hippostdpubwf:lastModificationDate: 2021-04-07T11:13:43.426+03:00
+      hippostdpubwf:creationDate: 2021-04-08T11:51:10.422+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T11:52:13.853+03:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-04-07T11:13:49.385+03:00
-      hippotranslation:id: a0d4b6b6-6755-46e9-91ba-9872cfe1b211
+      hippostdpubwf:publicationDate: 2021-04-08T11:52:16.483+03:00
+      hippotranslation:id: 5f03c016-d25f-4e51-a762-368d55fa7373
       hippotranslation:locale: en
-      myproject:introduction: Me & my cat are greeting you!
-      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:introduction: Some introduction text about us
+      myproject:publicationdate: 2021-04-07T11:52:00+03:00
       myproject:title: About Us
       /myproject:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: <p>My name is Olesia and my cat's name is Felix. I'm working
-          on this project and Felix is inspiring me, purring on my laps</p>
+        hippostd:content: |-
+          <p>Bloomreach lives at the intersection of e-commerce, marketing, and AI. Our solutions are uniquely built to serve digital commerce and marketing professionals in their mission to deliver meaningful moments to customers that result in revenue growth, fast.&nbsp;</p>
+
+          <p>Our commerce-specific digital experience platform, brX, is the only platform that connects deep customer data with deep product data, enabling brands to deliver incredible commerce experiences through personalized products and content across all digital touchpoints.&nbsp;</p>
+
+          <p>brX competes in three core categories: Engagement (including customer data platforms and marketing automation), Content (including headless content and experience management), and Discovery (including e-commerce search, merchandising, recommendations, and SEO). Customers can start with any of these services, realize ROI quickly, and build towards magical experiences.&nbsp;</p>
+  /pagenotfound:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 685569dc-7d6d-48ad-b77c-5eb15249f4ce
+    hippo:name: PageNotFound
+    hippo:versionHistory: 99ef931e-4a45-4cff-af98-a14114925eba
+    /pagenotfound[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f6c652af-c7a6-4d74-b950-573984b8f858
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T12:08:06.047+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:08:06.047+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b1f0674b-f2dd-4f72-92a8-ffb6c9c5b365
+      hippotranslation:locale: en
+      myproject:introduction: ''
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: Page Not Found
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /pagenotfound[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: b7bacaab-00db-48fc-8208-e8ad43bec2cc
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T12:08:06.047+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:08:18.768+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b1f0674b-f2dd-4f72-92a8-ffb6c9c5b365
+      hippotranslation:locale: en
+      myproject:introduction: ''
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: Page Not Found
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /pagenotfound[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 57eafdfd-ba0f-4f61-93c2-6f98d126e344
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T12:08:06.047+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:08:18.768+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T12:08:20.842+03:00
+      hippotranslation:id: b1f0674b-f2dd-4f72-92a8-ffb6c9c5b365
+      hippotranslation:locale: en
+      myproject:introduction: ''
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: Page Not Found
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''

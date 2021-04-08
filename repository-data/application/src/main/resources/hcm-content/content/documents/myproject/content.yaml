@@ -1,4 +1,5 @@
 /content/documents/myproject/content:
+  .meta:order-before: configuration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 9b5b9982-039e-4f04-a8b0-b43122668ec1

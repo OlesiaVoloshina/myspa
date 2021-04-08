@@ -106,3 +106,9 @@ definitions:
         myproject:introduction: Einführung
         myproject:publicationdate: Publikationsdatum
         myproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/myproject:Product:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Product_EN
+        myproject:title: Title_EN

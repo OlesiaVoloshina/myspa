@@ -11,7 +11,6 @@
 /repository-data/site-development/target/
 /repository-data/webfiles/target/
 /site/webapp/target/
-/storage
 # generated files
 package-lock.json
 /repository-data/webfiles/src/main/resources/site/css/*/theme.css

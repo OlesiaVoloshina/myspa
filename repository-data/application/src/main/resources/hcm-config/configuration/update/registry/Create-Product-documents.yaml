@@ -8,7 +8,7 @@ definitions:
         node type, the property names and the categories to use.
       hipposys:dryrun: false
       hipposys:parameters: "{ \"howMany\" :  12 , \r\n\"categories\" : [\"food\",\"\
-        solar\",\"transport\"], \r\n\"nodeType\" : \"myproject:product\",\r\n\"titleField\"\
+        solar\",\"transport\"], \r\n\"nodeType\" : \"myproject:Product\",\r\n\"titleField\"\
         \ : \"myproject:title\", \r\n\"ratingField\" : \"myproject:rating\", \r\n\"\
         categoriesField\" : \"myproject:categories\", \r\n\"priceField\" : \"myproject:price\"\
         , \r\n\"introductionField\" : \"myproject:introduction\", \r\n\"instockField\"\
@@ -89,3 +89,4 @@ definitions:
         \ session) {\r\n        userName = session.getUserID();\r\n        rand =\
         \ new Random()\r\n    }\r\n\r\n}"
       hipposys:throttle: 1000
+      hipposys:loglevel: DEBUG

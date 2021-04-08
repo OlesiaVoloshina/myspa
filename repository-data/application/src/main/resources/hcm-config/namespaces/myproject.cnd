@@ -4,7 +4,13 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
+[myproject:GeoLocation] > hippo:compound, hippostd:relaxed
+  orderable
+
 [myproject:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[myproject:Product] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
   orderable
 
 [myproject:bannerdocument] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument

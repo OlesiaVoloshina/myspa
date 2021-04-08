@@ -1,0 +1,130 @@
+/content/documents/myproject/landing-pages:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+    'mix:versionable']
+  jcr:uuid: 8463c3be-3927-40de-a77f-ae5acf801838
+  hippo:name: landing pages
+  hippostd:channelid: myproject
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: ca956d7c-95bb-4fbe-9653-61f52aece309
+  hippotranslation:locale: en
+  /products:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 3c936829-9dda-44cb-a87f-eed4d1022da7
+    hippo:name: Products
+    hippo:versionHistory: 7a359f5e-df15-495c-856c-d1294f391c18
+    /products[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 5de1fc82-e553-4f69-a448-fd7192a4aa9c
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T12:24:31.553+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:25:31.233+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5343ef0e-6987-44c8-9397-078ee8c30be4
+      hippotranslation:locale: en
+      myproject:introduction: List of products
+      myproject:publicationdate: 2021-04-08T12:25:00+03:00
+      myproject:title: Products
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /products[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: b3c4e579-8cc7-4469-a1c5-5b9dacb39fdf
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T12:24:31.553+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:47:29.830+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5343ef0e-6987-44c8-9397-078ee8c30be4
+      hippotranslation:locale: en
+      myproject:introduction: List of products
+      myproject:publicationdate: 2021-04-08T12:25:00+03:00
+      myproject:title: Products
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 8577f767-4e8c-4a7b-b0c2-5def6b333b7c
+        hst:pageref: landing-page
+        /1211db6a-2896-4d12-a19c-3c5848e9307a:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 17055691-fb5b-4c92-a3ff-3238074b7315
+          hippo:identifier: e330d872-db4e-4079-9d8f-fab3a0f26638
+          hst:lastmodified: 2021-04-08T09:47:29.829Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: ee350cfa-fb03-44a2-a75a-7724da82571c
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+          /productlist:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 33634e31-2b88-479d-a7f2-da3e2bf6a960
+            hst:componentdefinition: hst:components/essentials-catalog/productlist
+            hst:parameternames: [hideFutureItems, scope, documentTypes, sortOrder,
+              sortField, hidePastItems, dateField, pageSize, includeSubtypes]
+            hst:parametervalues: ['off', '', 'myproject:Product', desc, 'myproject:title',
+              'off', '', '10', 'on']
+    /products[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 0458a320-7773-442e-8c3c-ccee23b533a7
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-08T12:24:31.553+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-08T12:47:29.830+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-08T12:47:36.804+03:00
+      hippotranslation:id: 5343ef0e-6987-44c8-9397-078ee8c30be4
+      hippotranslation:locale: en
+      myproject:introduction: List of products
+      myproject:publicationdate: 2021-04-08T12:25:00+03:00
+      myproject:title: Products
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: eced5dda-ebb0-4e01-bdf7-da42d933a8b3
+        hst:pageref: landing-page
+        /1211db6a-2896-4d12-a19c-3c5848e9307a:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 803552b3-1ec3-4787-aa3c-72140412ef41
+          hippo:identifier: e330d872-db4e-4079-9d8f-fab3a0f26638
+          hst:lastmodified: 2021-04-08T09:47:29.829Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 9134a775-da51-404e-8731-c8ec0bab7915
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+          /productlist:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: ad427bb3-3d12-4253-9714-3f42a8ccd102
+            hst:componentdefinition: hst:components/essentials-catalog/productlist
+            hst:parameternames: [hideFutureItems, scope, documentTypes, sortOrder,
+              sortField, hidePastItems, dateField, pageSize, includeSubtypes]
+            hst:parametervalues: ['off', '', 'myproject:Product', desc, 'myproject:title',
+              'off', '', '10', 'on']

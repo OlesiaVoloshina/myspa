@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:sitemenus/main/products:
+  .meta:order-before: about
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: landingpages/products.html
+  hst:repobased: false

@@ -33,7 +33,7 @@ definitions:
           hippo:identifier: 9b1481e2-eb3e-48ad-b014-6458cbd0bbea
           hst:label: Page-Not-Found Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2021-04-07T11:16:59.287+03:00
+          hst:lastmodified: 2021-04-08T12:09:01.073+03:00
       /newslist:
         jcr:primaryType: hst:containercomponentfolder
         /main:

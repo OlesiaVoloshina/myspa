@@ -1,2 +1,3 @@
 /content/documents/myproject/storage_OLD:
+  .meta:order-before: service
   jcr:primaryType: hcm:contentfolder
