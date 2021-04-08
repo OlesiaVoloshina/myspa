@@ -1,0 +1,1029 @@
+/content/documents/myproject/news:
+  .meta:order-before: content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 3bee18a9-cfe4-4d4b-9e71-ad666953c355
+  hippostd:foldertype: [new-news-document, new-news-folder]
+  hippotranslation:id: dea03e71-56fa-46ac-b79d-76a750012037
+  hippotranslation:locale: en
+  /2020:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: bbf69f43-a98b-42ca-b182-3ef10c884005
+    hippostd:foldertype: [new-news-document, new-news-folder]
+    hippotranslation:id: 9faea722-f03b-4add-bbb9-32280948bcc7
+    hippotranslation:locale: en
+    /11:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 5d63d153-2e6b-458a-9e35-e6035ea613cb
+      hippostd:foldertype: [new-news-document, new-news-folder]
+      hippotranslation:id: 7d5150cf-1984-4973-bd4e-0be190b4cfa0
+      hippotranslation:locale: en
+      /the-medusa-news:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: c580ac64-3874-4717-a6d9-e5ad72080abe
+        hippo:name: The medusa news
+        /the-medusa-news:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4e0f3f0d-d76f-486d-9ef8-31408fb6ea97
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T13:04:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T13:04:00+01:00
+          hippotranslation:id: 3044d813-fbb5-459a-9e24-9c5ee19ec34d
+          hippotranslation:locale: en
+          myproject:author: Alfred Anonymous
+          myproject:date: 2020-11-10T13:04:00+02:00
+          myproject:documenttype: news
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          myproject:location: Rotterdam
+          myproject:source: ''
+          myproject:title: The medusa news
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                        </body>
+                        </html>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /2013-harvest:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 30092f4e-2ef7-4c72-86a5-8ce895908937
+        hippo:name: 2013 harvest
+        /2013-harvest:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3eaecd7a-25a2-4aed-ac85-c941ba13819c
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T14:31:00+01:00
+          hippotranslation:id: 8ab37d81-d6ea-4a90-932d-9e0c501a84a4
+          hippotranslation:locale: en
+          myproject:author: Alfred Anonymous
+          myproject:date: 2020-11-10T13:04:00+02:00
+          myproject:documenttype: news
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          myproject:location: Rome
+          myproject:source: ''
+          myproject:title: 2013 harvest
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                        </body>
+                        </html>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /the-gastropoda-news:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+        hippo:name: The gastropoda news
+        /the-gastropoda-news:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: be86a7b2-456b-40ec-bf4d-158430143146
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T12:52:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:52:00+01:00
+          hippotranslation:id: d7dcd4ca-c2f1-41c3-a535-e73ea99ba42f
+          hippotranslation:locale: en
+          myproject:author: Alfred Anonymous
+          myproject:date: 2020-11-10T13:04:00+02:00
+          myproject:documenttype: news
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum
+          myproject:location: Liverpool
+          myproject:source: ''
+          myproject:title: The gastropoda news
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                        </body>
+                        </html>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+  /2021:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 88f822ca-9e44-4497-a561-15955ca09f8f
+    hippostd:foldertype: [new-news-document, new-news-folder]
+    hippotranslation:id: 2fb2330d-6c71-428f-a2b4-840e054a2e64
+    hippotranslation:locale: en
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 03104c18-3a0b-446e-a56f-f7657c658880
+      hippostd:foldertype: [new-news-document, new-news-folder]
+      hippotranslation:id: a08a3db7-07b2-4097-b96e-63737c390ba2
+      hippotranslation:locale: en
+      /news1:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bea04156-0a6a-43d0-9fa5-42d4439033a2
+        /news1:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5325c418-1736-4438-b501-ebe7029fa64e
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.853+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.852+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.853+03:00
+          hippotranslation:id: ac559ee6-556a-45f1-97d0-84563f6fd96e
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.831+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 1
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news2:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 38df9d95-9257-4c34-9007-2e018f8abed8
+        /news2:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: aa7c51ae-af24-4937-a0b6-bd35f0ddd5f1
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.863+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.863+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.863+03:00
+          hippotranslation:id: dcd77b84-293e-44f4-a020-f5ee3ec3978e
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.862+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 2
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news3:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5d441a0b-c488-4c4f-84a9-e17bbf66ed75
+        /news3:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 867d6ed9-9e3e-462b-8847-fc50bdf0e510
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.865+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.865+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.865+03:00
+          hippotranslation:id: 5e87b858-b085-497d-84cb-a73777c1c5d2
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.864+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 3
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news4:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3466491c-9dc1-4f4d-888a-ba0b88acdf5a
+        /news4:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1b4d650c-3636-4c9c-b445-104bffae8d28
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.867+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.867+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.867+03:00
+          hippotranslation:id: 92d5c20b-2f96-45c5-92ee-033ec1e6e4fb
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.866+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 4
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news5:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ca79a9dc-be97-478a-af54-d1f1d6c381d2
+        /news5:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 748b8bdf-d2f7-421d-a55a-e6381c5cdc47
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.868+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.868+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.868+03:00
+          hippotranslation:id: d289057b-3018-4e29-ad09-91bec3a6905a
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.867+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 5
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news6:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 82901512-fcdb-4538-ab21-f04b69fefc4a
+        /news6:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 21b87ab2-393f-47c4-af0f-ddbb1735293f
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.870+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.869+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.870+03:00
+          hippotranslation:id: 2007593a-787e-4bb1-8156-6d314055794e
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.869+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 6
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news7:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 200a28c7-69a5-47b1-8b6f-4c971caebc90
+        /news7:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: def33c9e-dc89-4cd2-b04a-f84572a04f64
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.871+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.871+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.871+03:00
+          hippotranslation:id: 743a2f2a-f796-4d8b-adc5-08edb448c79b
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.870+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 7
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news8:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 24e38609-8498-48ac-9549-85e92cde6074
+        /news8:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f444bce4-0a7a-45bb-92dc-9683144ba68d
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.873+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.873+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.873+03:00
+          hippotranslation:id: eb9a0fb5-5a38-4ea0-8d0c-14562a9df780
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.872+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 8
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news9:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1bb4c8f8-52d9-4143-83e8-a741f1eaa242
+        /news9:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0832dc08-4ef7-4510-bd95-5c7f0f6e227a
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.874+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.874+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.874+03:00
+          hippotranslation:id: 51a8852e-ea5d-4000-9a4e-d96cc73940f3
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.874+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 9
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news10:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 436a3d5d-0103-45c0-bd08-4c2082ea330f
+        /news10:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4dadcef2-92ad-4b10-a937-16e67ad076ac
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.876+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.876+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.876+03:00
+          hippotranslation:id: 0db685ac-3d8b-447d-81fe-0756904fcb6e
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.875+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 10
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news11:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3062ce51-09cc-49c9-ae50-821c5a9f1720
+        /news11:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0740967d-c142-4c41-bea7-3ce26b4ac119
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.877+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.877+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.877+03:00
+          hippotranslation:id: 6ad2ea8d-4be3-4061-b274-16a791ac24ef
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.876+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 11
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news12:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a1cd7115-7d1e-4612-808d-3ef8805e663a
+        /news12:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f4933df5-3a07-495f-974b-66b11983a208
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.878+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.878+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.878+03:00
+          hippotranslation:id: 9614b12d-2785-45fa-8fa3-f16fbf1da545
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.878+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 12
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news13:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 40e14888-6cea-4412-867d-38b1bd6bca2c
+        /news13:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 099e1b45-5024-4e80-ba5f-45d75665d899
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.879+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.879+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.879+03:00
+          hippotranslation:id: 5fe117b7-bc5f-4272-ae3c-9c2597c909e5
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.879+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 13
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news14:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e7bd3239-08b5-416e-8423-86be7bcdde79
+        /news14:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7d64d80e-b53d-47bf-afac-4f97181517ad
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.880+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.880+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.880+03:00
+          hippotranslation:id: 3d1809d8-e134-4c97-a55f-79af09a3bbee
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.880+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 14
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news15:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b6b38281-c0db-4e0a-a27f-f4cda529a470
+        /news15:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0e68b32d-f53d-4958-bd4d-3f13df2ae7c0
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.882+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.882+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.882+03:00
+          hippotranslation:id: 9a90d9b6-acab-4add-b030-3cf74f0ad798
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.882+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 15
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news16:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: fccd1485-c0ce-498d-ace2-2b01bbd52c3d
+        /news16:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 98bf6828-70cd-4183-bf7b-c04b7ca9cc18
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.886+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.886+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.886+03:00
+          hippotranslation:id: 7c5243af-ab13-40f5-856c-1e2fa76c7003
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.885+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 16
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news17:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 389f5347-95ab-4667-b97c-8d73bccde0c0
+        /news17:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b5745e0c-e700-4bde-8933-76bacc841ed4
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.887+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.887+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.887+03:00
+          hippotranslation:id: f11252cc-8c97-44f0-89a9-2decb45c9d59
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.886+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 17
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news18:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c75d741e-39b0-4dae-93a4-2d855e2367eb
+        /news18:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: afb9bee3-a21d-46ea-b31a-3e37b507cd61
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.888+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.888+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.888+03:00
+          hippotranslation:id: 8f83b8a2-c1ac-458e-8897-76adc71c598a
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.888+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 18
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news19:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c4ec2ea2-e807-4ecf-81aa-7e69efc306b4
+        /news19:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7e4dd327-b3aa-45a9-9659-04aeb9663a3b
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.889+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.889+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.889+03:00
+          hippotranslation:id: ea5f619e-2754-40db-b1e0-f9cf1b04bca1
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.889+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 19
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news20:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ee8ef67a-a589-4d3a-abf9-51ac706f175c
+        /news20:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6897954e-5668-4006-827f-1a161fefa901
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.891+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.891+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.891+03:00
+          hippotranslation:id: 6b6555e5-d4ce-458e-8314-21dea5788d15
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.891+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 20
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news21:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c52885d9-76fd-4066-94ca-d5facf913ebb
+        /news21:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: eb62b537-d662-410c-b1ef-d0c50fc1b059
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.892+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.892+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.892+03:00
+          hippotranslation:id: fe0b7042-e1b3-404c-a94b-f1b80596bfd2
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.892+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 21
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news22:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0dc57320-4d7c-4a13-a707-76e8e9a5a761
+        /news22:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3f47726e-5234-4ad7-8e8d-698fc9ee6078
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.894+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.894+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.894+03:00
+          hippotranslation:id: f6052440-22c9-4784-a969-9522544e4d56
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.893+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 22
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news23:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c35c805e-f831-4b57-8970-fc4ba451304e
+        /news23:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b0745151-3066-41f5-a28c-78507dc6a84f
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.895+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.895+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.895+03:00
+          hippotranslation:id: e8e0080b-6c2b-47c5-9da2-e892856f582a
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.894+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 23
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /news24:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3d8167af-9677-4ebe-9e7d-b2c886ccd214
+        /news24:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8281fe7b-9e93-46cd-91bf-edf3bfe78aee
+          hippo:availability: [live, preview]
+          hippostd:state: published
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.896+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.896+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippostdpubwf:publicationDate: 2021-04-06T13:20:06.896+03:00
+          hippotranslation:id: aed0da5b-f157-4e55-b0fd-8c62d3273ae0
+          hippotranslation:locale: en
+          myproject:author: Fake News Author
+          myproject:date: 2021-04-06T13:20:06.895+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: Fake News 24
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>

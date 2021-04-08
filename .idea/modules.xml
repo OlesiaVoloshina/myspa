@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myproject.iml" filepath="$PROJECT_DIR$/myproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms/myproject-cms.iml" filepath="$PROJECT_DIR$/cms/myproject-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-dependencies/myproject-cms-dependencies.iml" filepath="$PROJECT_DIR$/cms-dependencies/myproject-cms-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/components/myproject-components.iml" filepath="$PROJECT_DIR$/site/components/myproject-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essentials/myproject-essentials.iml" filepath="$PROJECT_DIR$/essentials/myproject-essentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/myproject-repository-data.iml" filepath="$PROJECT_DIR$/repository-data/myproject-repository-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/application/myproject-repository-data-application.iml" filepath="$PROJECT_DIR$/repository-data/application/myproject-repository-data-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/development/myproject-repository-data-development.iml" filepath="$PROJECT_DIR$/repository-data/development/myproject-repository-data-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site/myproject-repository-data-site.iml" filepath="$PROJECT_DIR$/repository-data/site/myproject-repository-data-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site-development/myproject-repository-data-site-development.iml" filepath="$PROJECT_DIR$/repository-data/site-development/myproject-repository-data-site-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/webfiles/myproject-repository-data-webfiles.iml" filepath="$PROJECT_DIR$/repository-data/webfiles/myproject-repository-data-webfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/myproject-site.iml" filepath="$PROJECT_DIR$/site/myproject-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/webapp/myproject-webapp.iml" filepath="$PROJECT_DIR$/site/webapp/myproject-webapp.iml" />
+    </modules>
+  </component>
+</project>

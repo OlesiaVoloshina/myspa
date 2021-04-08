@@ -1,0 +1,11 @@
+# Project exclude paths
+/cms/target/
+/essentials/target/
+/repository-data/application/target/
+/repository-data/development/target/
+/repository-data/site/target/
+/repository-data/site-development/target/
+/repository-data/webfiles/target/
+/site/components/target/
+/site/webapp/target/
+/target/

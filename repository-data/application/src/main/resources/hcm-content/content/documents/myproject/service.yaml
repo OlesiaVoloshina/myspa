@@ -1,0 +1,78 @@
+/content/documents/myproject/service:
+  .meta:order-before: new
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: ead91bf5-a98f-4aef-9c9e-4318680da38a
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: c220e69d-2aa9-4b91-abb8-a1faacbf3d4c
+  hippotranslation:locale: en
+  /about-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 72120993-e9fb-4db7-9cba-85217f82f968
+    hippo:name: About Us
+    hippo:versionHistory: 5b9e9be9-2ac3-4917-b983-e99e024de17d
+    /about-us[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9c73213e-e2cc-4e41-85e8-807a9bdc8d96
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-07T11:11:16.718+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-07T11:11:16.718+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a0d4b6b6-6755-46e9-91ba-9872cfe1b211
+      hippotranslation:locale: en
+      myproject:introduction: Me & my cat are greeting you!
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>My name is Olesia and my cat's name is Felix. I'm working
+          on this project and Felix is inspiring me, purring on my laps</p>
+    /about-us[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5326e9ff-b5c0-4a95-ae2c-5ba0c0abc2a3
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-07T11:11:16.718+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-07T11:13:43.426+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a0d4b6b6-6755-46e9-91ba-9872cfe1b211
+      hippotranslation:locale: en
+      myproject:introduction: Me & my cat are greeting you!
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>My name is Olesia and my cat's name is Felix. I'm working
+          on this project and Felix is inspiring me, purring on my laps</p>
+    /about-us[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 446fadd7-c989-42a2-bd20-bc40ee8bc8e3
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-07T11:11:16.718+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-07T11:13:43.426+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-07T11:13:49.385+03:00
+      hippotranslation:id: a0d4b6b6-6755-46e9-91ba-9872cfe1b211
+      hippotranslation:locale: en
+      myproject:introduction: Me & my cat are greeting you!
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>My name is Olesia and my cat's name is Felix. I'm working
+          on this project and Felix is inspiring me, purring on my laps</p>
