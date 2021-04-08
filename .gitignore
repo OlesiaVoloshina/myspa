@@ -1,11 +1,22 @@
-# Project exclude paths
+*.iml
+/target/
+/.idea/
 /cms/target/
+/site/components/target/
+/essentials/overlays/
 /essentials/target/
 /repository-data/application/target/
 /repository-data/development/target/
 /repository-data/site/target/
 /repository-data/site-development/target/
 /repository-data/webfiles/target/
-/site/components/target/
 /site/webapp/target/
-/target/
+/storage
+# generated files
+package-lock.json
+/repository-data/webfiles/src/main/resources/site/css/*/theme.css
+/repository-data/webfiles/src/main/resources/site/css/*/style2.css
+/repository-data/webfiles/src/main/resources/site/css/*/style2.css.map
+/repository-data/webfiles/src/main/resources/site/css/*/print.css
+/repository-data/webfiles/src/main/resources/site/css/*/print.css.map
+/react-csr/node_modules
