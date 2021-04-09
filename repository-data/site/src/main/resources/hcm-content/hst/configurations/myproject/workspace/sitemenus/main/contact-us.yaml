@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:sitemenus/main/contact us:
+  .meta:order-before: about
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: contact-us
+  hst:repobased: false

@@ -2,14 +2,14 @@
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['mix:referenceable']
   jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-myproject-desktopbanner-folder]
+  hippostd:gallerytype: ['myproject:desktopbanner']
   /banner-1.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
     /banner-1.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: myproject:desktopbanner
       hippo:availability: [live, preview]
       hippogallery:filename: banner-1.jpg
       /hippogallery:thumbnail:
@@ -19,7 +19,7 @@
         hippogallery:width: 60
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/banners/banner-1.jpg/banner-1_thumbnail.jpg
+          resource: /content/gallery/myproject/banners/banner-1.jpg/banner-1.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2016-07-25T09:42:50.174+02:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -28,15 +28,33 @@
         hippogallery:width: 1170
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/banners/banner-1.jpg/banner-1_original.jpg
+          resource: /content/gallery/myproject/banners/banner-1.jpg/banner-1.jpg/original/original.jpg
         jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /myproject:desktopbanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 128
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner-1.jpg/banner-1.jpg/desktopbanner/desktopbanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.429+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:mobilebanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 42
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner-1.jpg/banner-1.jpg/mobilebanner/mobilebanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.486+03:00
         jcr:mimeType: image/jpeg
   /banner-2.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
     /banner-2.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: myproject:desktopbanner
       hippo:availability: [live, preview]
       hippogallery:filename: banner-2.jpg
       /hippogallery:thumbnail:
@@ -46,7 +64,7 @@
         hippogallery:width: 60
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/banners/banner-2.jpg/banner-2_thumbnail.jpg
+          resource: /content/gallery/myproject/banners/banner-2.jpg/banner-2.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2016-07-25T09:42:50.558+02:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -55,6 +73,70 @@
         hippogallery:width: 1170
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/banners/banner-2.jpg/banner-2_original.jpg
+          resource: /content/gallery/myproject/banners/banner-2.jpg/banner-2.jpg/original/original.jpg
         jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /myproject:desktopbanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 128
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner-2.jpg/banner-2.jpg/desktopbanner/desktopbanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.346+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:mobilebanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 42
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner-2.jpg/banner-2.jpg/mobilebanner/mobilebanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.371+03:00
+        jcr:mimeType: image/jpeg
+  /banner.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 668db685-7376-45d6-b1e6-0bb64b513b96
+    /banner.jpg:
+      jcr:primaryType: myproject:desktopbanner
+      hippo:availability: [live, preview]
+      hippogallery:description: ''
+      hippogallery:filename: banner.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner.jpg
+        hippogallery:height: 20
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner.jpg/banner.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2021-04-09T14:28:48.985+03:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner.jpg/banner.jpg/original/original.jpg
+        jcr:lastModified: 2021-04-09T14:28:48.985+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:mobilebanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner.jpg/banner.jpg/mobilebanner/mobilebanner.jpg
+        jcr:lastModified: 2021-04-09T14:31:42.151+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:desktopbanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 600
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/banners/banner.jpg/banner.jpg/desktopbanner/desktopbanner.jpg
+        jcr:lastModified: 2021-04-09T14:28:48.985+03:00
         jcr:mimeType: image/jpeg

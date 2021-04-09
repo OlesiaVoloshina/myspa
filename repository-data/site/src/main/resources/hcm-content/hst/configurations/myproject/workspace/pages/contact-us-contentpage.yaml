@@ -1,0 +1,29 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:pages/contact-us-contentpage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2021-04-09T16:06:55.642+03:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    hippo:identifier: 3a1b0245-f939-41db-89ec-ed77dbd8d61b
+    hst:label: Content Page Main
+    hst:lastmodified: 2021-04-09T17:21:18.969+03:00
+    hst:xtype: hst.vbox
+    /DynamicBanner:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentdefinition: hst:components/essentials-catalog/DynamicBanner
+      hst:parameternames: [document]
+      hst:parametervalues: [banners/mybanner]
+    /CustomSimpleContent:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentdefinition: hst:components/essentials-catalog/CustomSimpleContent
+      hst:parameternames: [buttonCss, buttonCssClass, buttonLink, document, org.hippoecm.hst.core.component.template,
+        buttonLabel]
+      hst:parametervalues: [btn-success, btn-success, 'http://google.com', news/2020/11/news-to-update,
+        'webfile:/freemarker/hstdefault/contentpage-main.ftl', Test Button]
+    /CustomSimpleContent1:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentdefinition: hst:components/essentials-catalog/CustomSimpleContent
+      hst:parameternames: [buttonCss, buttonLink, document, org.hippoecm.hst.core.component.template,
+        buttonLabel]
+      hst:parametervalues: ['', '', content/sample-document, 'webfile:/freemarker/hstdefault/contentpage-main.ftl',
+        '']

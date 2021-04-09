@@ -1,0 +1,18 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:desktopbanner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 200
+      upscaling: false
+      width: 600
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:mobilebanner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 80
+      upscaling: false
+      width: 200
+      compression: 1.0
+      cropping: false
+      optimize: quality

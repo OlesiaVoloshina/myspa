@@ -112,3 +112,5 @@ definitions:
         jcr:primaryType: hipposys:resourcebundle
         jcr:name: Product_EN
         myproject:title: Title_EN
+    /hippo:configuration/hippo:translations/hippo:types/myproject:desktopbanner:
+      jcr:primaryType: hipposys:resourcebundles

@@ -109,3 +109,10 @@ interface Pagination {
 
   [property: string]: any;
 }
+
+interface MyBannerImageSet {
+
+    getDesktopbanner(): Image | undefined;
+
+    getMobilebanner(): Image | undefined;
+}

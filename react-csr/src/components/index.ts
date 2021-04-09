@@ -22,3 +22,4 @@ export * from './NewsList';
 export * from './ContentList';
 export * from './ProductList';
 export * from './ProductContent';
+export * from './CustomContent';

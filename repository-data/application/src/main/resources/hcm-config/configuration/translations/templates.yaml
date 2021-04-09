@@ -9,6 +9,8 @@ definitions:
       new-news-folder: Neuer News-Ordner
       new-content-folder: Neuer Content-Ordner
       new-content-document: Neues Content-Document
+      new-myproject-desktopbanner-image: Neues Bild
+      new-myproject-desktopbanner-folder: Neuer Ordner
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
@@ -20,6 +22,8 @@ definitions:
       new-content-document: new content document
       new-Product-document: new Product document
       new-Product-folder: new Product folder
+      new-myproject-desktopbanner-image: New Image
+      new-myproject-desktopbanner-folder: new folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
@@ -29,6 +33,8 @@ definitions:
       new-news-folder: nouveau dossier messages d'info
       new-content-folder: nouveau dossier contenu
       new-content-document: nouveau document contenu
+      new-myproject-desktopbanner-image: Nouvelle image
+      new-myproject-desktopbanner-folder: un nouveau dossier
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
@@ -38,3 +44,11 @@ definitions:
       new-news-folder: nieuwe nieuwsmap
       new-content-folder: nieuwe contentmap
       new-content-document: nieuw content document
+      new-myproject-desktopbanner-image: Nieuwe Afbeelding
+      new-myproject-desktopbanner-folder: nieuwe map
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-myproject-desktopbanner-image: Nueva imagen
+      new-myproject-desktopbanner-folder: nueva carpeta
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-myproject-desktopbanner-image: 新图片
+      new-myproject-desktopbanner-folder: 新文件夹

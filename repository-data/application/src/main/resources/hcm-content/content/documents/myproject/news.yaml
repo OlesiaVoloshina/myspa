@@ -641,6 +641,115 @@
             jcr:primaryType: myproject:GeoLocation
             myproject:latitude: '52.359356'
             myproject:longitude: '4.901615'
+      /news-to-update:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 00eae96e-b54d-4f8b-b530-90752a3dce48
+        hippo:name: News to update
+        hippo:versionHistory: 457e9dfa-7af3-485d-9cd9-beeed468fc8f
+        /news-to-update[1]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 02bec00a-cad5-4120-bd71-0fe02b010711
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-04-09T12:28:02.515+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-09T13:44:33.518+03:00
+          hippostdpubwf:lastModifiedBy: editor
+          hippotranslation:id: f71b327d-bf77-4672-b319-bb8efe951b2e
+          hippotranslation:locale: en
+          myproject:author: ''
+          myproject:date: 2021-03-29T12:28:00+03:00
+          myproject:documenttype: news
+          myproject:introduction: Just some document for experiments
+          myproject:location: ''
+          myproject:source: ''
+          myproject:title: News for experiments-updated
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Test news content</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:geolocation:
+            jcr:primaryType: myproject:GeoLocation
+            myproject:latitude: '60.0'
+            myproject:longitude: '30.0'
+        /news-to-update[2]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 219ce566-bda0-4a22-9726-59952abb848a
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-04-09T12:28:02.515+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-09T13:44:40.076+03:00
+          hippostdpubwf:lastModifiedBy: editor
+          hippotranslation:id: f71b327d-bf77-4672-b319-bb8efe951b2e
+          hippotranslation:locale: en
+          myproject:author: ''
+          myproject:date: 2021-03-29T12:28:00+03:00
+          myproject:documenttype: news
+          myproject:introduction: Just some document for experiments
+          myproject:location: ''
+          myproject:source: ''
+          myproject:title: News for experiments-updated
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Test news content</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:geolocation:
+            jcr:primaryType: myproject:GeoLocation
+            myproject:latitude: '60.0'
+            myproject:longitude: '30.0'
+        /news-to-update[3]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 11ef7f35-1aa3-4675-b91b-76e772644b1c
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-04-09T12:28:02.515+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-09T13:44:40.076+03:00
+          hippostdpubwf:lastModifiedBy: editor
+          hippostdpubwf:publicationDate: 2021-04-09T13:44:43.519+03:00
+          hippotranslation:id: f71b327d-bf77-4672-b319-bb8efe951b2e
+          hippotranslation:locale: en
+          myproject:author: ''
+          myproject:date: 2021-03-29T12:28:00+03:00
+          myproject:documenttype: news
+          myproject:introduction: Just some document for experiments
+          myproject:location: ''
+          myproject:source: ''
+          myproject:title: News for experiments-updated
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Test news content</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:geolocation:
+            jcr:primaryType: myproject:GeoLocation
+            myproject:latitude: '60.0'
+            myproject:longitude: '30.0'
   /2021:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -657,13 +766,14 @@
       hippotranslation:locale: en
       /news1:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['mix:referenceable']
+        jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: bea04156-0a6a-43d0-9fa5-42d4439033a2
-        /news1:
+        hippo:versionHistory: 346a854d-e37c-4d9e-9ca9-3b2bb2ff28b4
+        /news1[1]:
           jcr:primaryType: myproject:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 5325c418-1736-4438-b501-ebe7029fa64e
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:state: published
           hippostdpubwf:createdBy: system
           hippostdpubwf:creationDate: 2021-04-06T13:20:06.853+03:00
@@ -688,6 +798,76 @@
               dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
               in culpa qui officia deserunt mollit anim id est laborum.</p>
+        /news1[2]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 74a013bb-59e3-486b-ad31-abbe41175f4d
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.853+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-06T13:20:06.852+03:00
+          hippostdpubwf:lastModifiedBy: system
+          hippotranslation:id: ac559ee6-556a-45f1-97d0-84563f6fd96e
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-06T13:20:06.831+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:title: News 1
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+        /news1[3]:
+          jcr:primaryType: myproject:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 54c00cdc-bf41-4824-b4a8-fd5e7c5cad0c
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostd:transferable: false
+          hippostdpubwf:createdBy: system
+          hippostdpubwf:creationDate: 2021-04-06T13:20:06.853+03:00
+          hippostdpubwf:lastModificationDate: 2021-04-09T12:27:25.484+03:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: ac559ee6-556a-45f1-97d0-84563f6fd96e
+          hippotranslation:locale: en
+          myproject:author: Bloomreach Author
+          myproject:date: 2021-04-05T13:20:00+03:00
+          myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+          myproject:location: ''
+          myproject:source: ''
+          myproject:title: News 1
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              in culpa qui officia deserunt mollit anim id est laborum.</p>
+          /myproject:geolocation:
+            jcr:primaryType: myproject:GeoLocation
+            myproject:latitude: ''
+            myproject:longitude: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /news2:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']

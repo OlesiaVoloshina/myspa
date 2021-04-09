@@ -2,4 +2,4 @@
   jcr:primaryType: hst:containeritemcomponent
   hst:componentdefinition: hst:components/essentials-catalog/DynamicBanner
   hst:parameternames: [document]
-  hst:parametervalues: [banners/banner1]
+  hst:parametervalues: [banners/mybanner]

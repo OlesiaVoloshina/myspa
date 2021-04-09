@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: a39c58a0-c640-42be-9b05-3b6ba30902f2
+          jcr:uuid: b4c863c1-62d0-45c2-98f4-687d5fc644e3
           hipposysedit:node: true
           hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
@@ -23,7 +23,6 @@ definitions:
             hipposysedit:path: myproject:latitude
             hipposysedit:primary: false
             hipposysedit:type: String
-            hipposysedit:validators: [required]
           /longitude:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -32,7 +31,6 @@ definitions:
             hipposysedit:path: myproject:longitude
             hipposysedit:primary: false
             hipposysedit:type: String
-            hipposysedit:validators: [required]
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:

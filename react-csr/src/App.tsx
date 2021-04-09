@@ -18,7 +18,7 @@ import React from 'react';
 import axios from 'axios';
 import { Link, RouteComponentProps } from 'react-router-dom';
 import { BrComponent, BrPage, BrPageContext } from '@bloomreach/react-sdk';
-import { Banner, DynamicBanner, Content, Menu, NewsList, ContentList, ProductList, ProductContent } from './components';
+import { Banner, DynamicBanner, Content, Menu, NewsList, ContentList, ProductList, ProductContent, CustomContent } from './components';
 
 export default function App(props: RouteComponentProps) {
   const configuration = {
@@ -30,7 +30,7 @@ export default function App(props: RouteComponentProps) {
       path: `${props.location.pathname}${props.location.search}`,
     },
   };
-  const mapping = { Banner, DynamicBanner, Content, 'Simple Content': Content,
+  const mapping = { Banner, DynamicBanner, Content, 'Simple Content': Content, 'Custom Simple Content': CustomContent,
                     'News List': NewsList, 'Content list': ContentList, 'Product List': ProductList,
                     'productcontent': ProductContent};
 

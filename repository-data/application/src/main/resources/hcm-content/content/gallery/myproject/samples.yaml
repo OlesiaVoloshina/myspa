@@ -2,14 +2,14 @@
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['mix:referenceable']
   jcr:uuid: 09621bf7-687c-484c-b0f0-2802b4e6cf1e
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-myproject-desktopbanner-folder]
+  hippostd:gallerytype: ['myproject:desktopbanner']
   /viognier-grapes-188185_640.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: beff458e-e07a-4065-8cad-8d96b67d13ec
     /viognier-grapes-188185_640.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: myproject:desktopbanner
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 3a684c03-7557-4ffb-bff5-7502ee3a1ac8
       hippo:availability: [live, preview]
@@ -21,7 +21,7 @@
         hippogallery:width: 58
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640_thumbnail.jpg
+          resource: /content/gallery/myproject/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -30,15 +30,33 @@
         hippogallery:width: 625
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640_original.jpg
+          resource: /content/gallery/myproject/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/original/original.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /myproject:desktopbanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 195
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/desktopbanner/desktopbanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.292+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:mobilebanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 78
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/samples/viognier-grapes-188185_640.jpg/viognier-grapes-188185_640.jpg/mobilebanner/mobilebanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.321+03:00
         jcr:mimeType: image/jpeg
   /animal-2883_640.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: 4709f797-61ae-4c36-93d4-63b5d50fc200
     /animal-2883_640.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: myproject:desktopbanner
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: ff36aef7-397c-46bc-9491-767ea35dfb8f
       hippo:availability: [live, preview]
@@ -50,7 +68,7 @@
         hippogallery:width: 60
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/samples/animal-2883_640.jpg/animal-2883_640_thumbnail.jpg
+          resource: /content/gallery/myproject/samples/animal-2883_640.jpg/animal-2883_640.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -59,15 +77,33 @@
         hippogallery:width: 640
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/samples/animal-2883_640.jpg/animal-2883_640_original.jpg
+          resource: /content/gallery/myproject/samples/animal-2883_640.jpg/animal-2883_640.jpg/original/original.jpg
         jcr:lastModified: 2013-11-12T12:15:00+01:00
+        jcr:mimeType: image/jpeg
+      /myproject:desktopbanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/samples/animal-2883_640.jpg/animal-2883_640.jpg/desktopbanner/desktopbanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.552+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:mobilebanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 120
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/samples/animal-2883_640.jpg/animal-2883_640.jpg/mobilebanner/mobilebanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.572+03:00
         jcr:mimeType: image/jpeg
   /snail-193611_640.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
     /snail-193611_640.jpg:
-      jcr:primaryType: hippogallery:imageset
+      jcr:primaryType: myproject:desktopbanner
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: af2a733d-ce7d-4886-b2d4-74cf9e20c150
       hippo:availability: [live, preview]
@@ -79,7 +115,7 @@
         hippogallery:width: 60
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/samples/snail-193611_640.jpg/snail-193611_640_thumbnail.jpg
+          resource: /content/gallery/myproject/samples/snail-193611_640.jpg/snail-193611_640.jpg/thumbnail/thumbnail.jpg
         jcr:lastModified: 2013-11-12T12:13:00+01:00
         jcr:mimeType: image/jpeg
       /hippogallery:original:
@@ -88,6 +124,24 @@
         hippogallery:width: 640
         jcr:data:
           type: binary
-          resource: /content/gallery/myproject/samples/snail-193611_640.jpg/snail-193611_640_original.jpg
+          resource: /content/gallery/myproject/samples/snail-193611_640.jpg/snail-193611_640.jpg/original/original.jpg
         jcr:lastModified: 2013-11-12T12:13:00+01:00
+        jcr:mimeType: image/jpeg
+      /myproject:desktopbanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 200
+        hippogallery:width: 266
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/samples/snail-193611_640.jpg/snail-193611_640.jpg/desktopbanner/desktopbanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.391+03:00
+        jcr:mimeType: image/jpeg
+      /myproject:mobilebanner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 80
+        hippogallery:width: 106
+        jcr:data:
+          type: binary
+          resource: /content/gallery/myproject/samples/snail-193611_640.jpg/snail-193611_640.jpg/mobilebanner/mobilebanner.jpg
+        jcr:lastModified: 2021-04-09T14:22:09.412+03:00
         jcr:mimeType: image/jpeg

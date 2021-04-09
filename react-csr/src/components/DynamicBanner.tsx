@@ -31,11 +31,15 @@ export function DynamicBanner(props: BrProps) {
   const image = imageRef && props.page.getContent<ImageSet>(imageRef);
   const link = linkRef && props.page.getContent<Document>(linkRef);
 
+  const imgRawData = JSON.parse(JSON.stringify(image));
+  const desktopBannerUrl = imgRawData.model.data.desktopbanner.links.site.href;
+  const mobileBannerUrl = imgRawData.model.data.mobilebanner.links.site.href;
   return (
     <div className={`jumbotron mb-3 ${props.page.isPreview() ? 'has-edit-button' : ''}`}>
       <BrManageContentButton content={document} />
       { title && <h1>{title}</h1> }
-      { image && <img className="img-fluid" src={image.getOriginal()?.getUrl()} alt={title} /> }
+      { image && <img className="img-fluid desktop" src={desktopBannerUrl} alt={title} /> }
+      { image && <img className="img-fluid mobile" src={mobileBannerUrl} alt={title} /> }
       { content && <div dangerouslySetInnerHTML={{ __html: props.page.rewriteLinks(content.value) }} /> }
       { link && (
         <p className="lead">

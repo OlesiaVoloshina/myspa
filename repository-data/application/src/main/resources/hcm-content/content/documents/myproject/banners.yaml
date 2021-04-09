@@ -7,13 +7,14 @@
   hippotranslation:locale: en
   /banner1:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['mix:referenceable']
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
-    /banner1:
+    hippo:versionHistory: 59c91ebf-bd4f-428c-afb2-feb03a3c8b0c
+    /banner1[1]:
       jcr:primaryType: myproject:bannerdocument
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 5242dfc2-9590-4a4c-a080-a083cd63c028
-      hippo:availability: [live, preview]
+      hippo:availability: [live]
       hippostd:holder: admin
       hippostd:state: published
       hippostdpubwf:createdBy: admin
@@ -21,6 +22,64 @@
       hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 715f6251-6c1e-4e06-95f9-e43b5e0aaf80
+      hippotranslation:locale: en
+      myproject:title: Sample banner
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[2]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d05d15a3-5d92-4353-92b2-640133e63d9c
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 715f6251-6c1e-4e06-95f9-e43b5e0aaf80
+      hippotranslation:locale: en
+      myproject:title: Sample banner
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[3]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2cdd65bd-68f8-49a1-9568-0ba21c5489b8
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2021-04-09T14:41:35.707+03:00
+      hippostdpubwf:lastModifiedBy: editor
       hippotranslation:id: 715f6251-6c1e-4e06-95f9-e43b5e0aaf80
       hippotranslation:locale: en
       myproject:title: Sample banner
@@ -74,3 +133,90 @@
       /myproject:link:
         jcr:primaryType: hippo:mirror
         hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /mybanner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 43f580d0-1503-4d9f-8de4-3e72f5a3122e
+    hippo:versionHistory: 15560dd2-8efa-41b6-a67f-904c1cf9d15a
+    /mybanner[1]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 48f5f3d1-4351-40cb-be83-3a7c2ea1e4fa
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-09T14:32:09.052+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-09T14:32:09.052+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5236ed40-2a4f-43b5-9e37-345461ba9ebf
+      hippotranslation:locale: en
+      myproject:title: New Banner
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Banner content</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 668db685-7376-45d6-b1e6-0bb64b513b96
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: bea04156-0a6a-43d0-9fa5-42d4439033a2
+    /mybanner[2]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 58d3054b-f04e-482e-a103-3bbb4d193732
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-09T14:32:09.052+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-09T14:32:38.809+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5236ed40-2a4f-43b5-9e37-345461ba9ebf
+      hippotranslation:locale: en
+      myproject:title: New Banner
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Banner content</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 668db685-7376-45d6-b1e6-0bb64b513b96
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: bea04156-0a6a-43d0-9fa5-42d4439033a2
+    /mybanner[3]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9ebcc3ae-8308-4781-9d8e-81514acbca34
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-09T14:32:09.052+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-09T14:32:38.809+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-09T14:32:40.710+03:00
+      hippotranslation:id: 5236ed40-2a4f-43b5-9e37-345461ba9ebf
+      hippotranslation:locale: en
+      myproject:title: New Banner
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Banner content</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 668db685-7376-45d6-b1e6-0bb64b513b96
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: bea04156-0a6a-43d0-9fa5-42d4439033a2

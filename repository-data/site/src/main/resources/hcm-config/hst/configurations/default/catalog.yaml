@@ -46,3 +46,27 @@ definitions:
         hst:ctype: Product List
         hst:iconpath: images/catalog-component-icons/product-list.png
         hst:label: Product List
+      /CustomSimpleContent:
+        jcr:primaryType: hst:componentdefinition
+        hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+        hst:ctype: CustomSimpleContent
+        hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+        hst:label: Custom Simple Content
+        hst:template: contentpage-main
+        /buttonLabel:
+          jcr:primaryType: hst:dynamicparameter
+          hst:valuetype: text
+        /buttonLink:
+          jcr:primaryType: hst:dynamicparameter
+          hst:valuetype: text
+        /document:
+          jcr:primaryType: hst:dynamicparameter
+          hst:valuetype: text
+          /hst:fieldconfig:
+            jcr:primaryType: hst:jcrpath
+            hst:pickerconfiguration: cms-pickers/documents-only
+            hst:pickerinitialpath: content
+            hst:relative: true
+        /buttonCssClass:
+          jcr:primaryType: hst:dynamicparameter
+          hst:valuetype: text
